@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cre_website *.css
+recursive-include cre_website *.csv
+recursive-include cre_website *.html
+recursive-include cre_website *.ico
+recursive-include cre_website *.js
+recursive-include cre_website *.json
+recursive-include cre_website *.md
+recursive-include cre_website *.png
+recursive-include cre_website *.py
+recursive-include cre_website *.svg
+recursive-include cre_website *.txt
+recursive-exclude cre_website *.pyc
